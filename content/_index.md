@@ -15,7 +15,13 @@ The main contribution of my PhD is a new programming language named [Aqua](https
 My graduation is planned at the end of the year (2024) and I am looking for new opportunities where I can apply my knowledge in programming languages and data systems and learn new skills. If you are interested in my work, please don't hesitate to contact me at __klasseg@kth.se__.
 
 __Research__:
-* [Aqua: A Dataflow Programming Language (DEBS'2024)](https://dl.acm.org/doi/10.1145/3629104.3666030)
+* [AquaLang: A Dataflow Programming Language (DEBS'2024)](https://dl.acm.org/doi/10.1145/3629104.3666030)
+
+<figure>
+  <figcaption>Listen to an AI-generated summary<sup href="#footnote-1">[1]</sup> of the paper:</figcaption>
+  <audio controls src="AquaLang.wav"></audio>
+</figure>
+
 * [Arc: An IR for Batch and Stream Programming (DBPL'2019)](https://dl.acm.org/doi/10.1145/3315507.3330199)
 
 __About__:
@@ -25,3 +31,5 @@ __About__:
 * [Resume](Resume.pdf)
 * [Google Scholar](https://scholar.google.com/citations?user=k4bVwsIAAAAJ&hl=en&oi=ao)
 * [KTH Profile Page](https://www.kth.se/profile/klasseg)
+
+ <sup id="footnote-1">[1]</sup> Generated using <a href="https://notebooklm.google.com/">notebooklm</a>.
