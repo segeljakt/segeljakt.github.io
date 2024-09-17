@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title></title>
+    
+    <link rel="stylesheet" href="https://segeljakt.github.io/style.css?h=c481bdc438b32ae4ce8f">
+    
+    
+    
+    
+</head>
+<body>
+    
+    <header class="space">
+        <h1></h1>
+        
+        
+    </header>
+    
+    
+    
+    
+    <main>
+        
+        <div >
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+  <img src="Photo.png" width="200">
+  <h2 style="flex-grow: 1; text-align: center;">
+    Portfolio of Klas Segeljakt (klasseg@kth.se)
+  </h2>
+</div>
+<p>Hi! I'm Klas Segeljakt, a PhD student at KTH Royal Institute of Technology, researching and developing programming languages for dataflow systems, with supervisors Paris Carbone, Seif Haridi and Vladimir Vlassov.</p>
+<p>The main contribution of my PhD is a new programming language named <a href="https://aqua-language.github.io">Aqua</a> that combines aspects from functional and relational programming to enable safe, efficient and user-friendly programming with data streams. Aqua comes with a compiler that targets existing streaming dataflow systems such as Flink.</p>
+<p>My graduation is planned at the end of the year (2024) and I am looking for new opportunities where I can apply my knowledge in programming languages and data systems and learn new skills. If you are interested in my work, please don't hesitate to contact me at <strong>klasseg@kth.se</strong>.</p>
+<p><strong>Research</strong>:</p>
+<ul>
+<li><a href="https://dl.acm.org/doi/10.1145/3629104.3666030">AquaLang: A Dataflow Programming Language (DEBS'2024)</a></li>
+</ul>
+<figure>
+  <figcaption>Listen to an AI-generated summary<sup href="#footnote-1">[1]</sup> of the paper:</figcaption>
+  <audio controls src="AquaLang.wav"></audio>
+</figure>
+<ul>
+<li><a href="https://dl.acm.org/doi/10.1145/3315507.3330199">Arc: An IR for Batch and Stream Programming (DBPL'2019)</a></li>
+</ul>
+<p><strong>About</strong>:</p>
+<ul>
+<li><a href="https://github.com/segeljakt">GitHub</a></li>
+<li><a href="https://linkedin.com/in/klas-segeljakt">LinkedIn</a></li>
+<li><a href="https://segeljakt.github.io/Transcripts.pdf">Transcripts</a></li>
+<li><a href="https://segeljakt.github.io/Resume.pdf">Resume</a></li>
+<li><a href="https://scholar.google.com/citations?user=k4bVwsIAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></li>
+<li><a href="https://www.kth.se/profile/klasseg">KTH Profile Page</a></li>
+</ul>
+<p><sup id="footnote-1">[1]</sup> Generated using <a href="https://notebooklm.google.com/">notebooklm</a>.</p>
+
+        </div>
+        
+        
+    </main>
+    
+    
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://segeljakt.github.io/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://segeljakt.github.io/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.querySelector("html").classList;
+        const sessionTheme = sessionStorage.getItem("theme");
+
+        function setDark() {
+            cls.add("dark-mode");
+            cls.remove("light-mode");
+            sessionStorage.setItem("theme", "dark");
+        }
+        function setLight() {
+            cls.add("light-mode");
+            cls.remove("dark-mode");
+            sessionStorage.setItem("theme", "light");
+        }
+
+        if (sessionTheme === "dark") {
+            setDark();
+        } else if (sessionTheme === "light") {
+            setLight();
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            setDark();
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            setDark();
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            setLight();
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
