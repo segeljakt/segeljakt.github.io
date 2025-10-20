@@ -29,6 +29,7 @@ __Research__<sup href="#footnote-1">[1]</sup>:
 </figure>
 
 __About__:
+* [Blog](blog/)
 * [GitHub](https://github.com/segeljakt)
 * [LinkedIn](https://linkedin.com/in/klas-segeljakt)
 * [Transcripts](Transcripts.pdf)
